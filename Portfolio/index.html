@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/20f5d418fc.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Home Section -->
+    <div id="Home" class="header">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Project">Projects</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>      
+            </nav>
+            <div class="row">
+                <div class="col-1">
+                    <div class="header-text">
+                        <p>Software Developer</p>
+                        <h1>Hello, <br>I'm <span>Preksha Rana</span></h1>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <img src="images/background-image.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About section -->
+    <div id="#About" class="about">
+        <div class="box">
+            <div class="box-left">
+                <div id="box-left-content1">
+                    <div id="box-image">
+                        <img src="/images/about-image.jpg">
+                    </div>
+                    <div id="box-content">
+                        <ul>
+                            <li><span>Name: </span> Preksha Rana</li>
+                            <li><span>Profile: </span>Web Developer</li>
+                            <li><span>Email: </span>ranapreksha8@gmail.com</li>
+                            <li><span>Phone: </span>+91 9909892386</li>
+                        </ul>
+                    </div>
+                </div><br>
+                <div id="box-left-content2">
+                    <h3>Skills</h3><br>
+                    <p>HTML: </p>
+                    <meter min="0" max="100" value="80">80%</meter>
+                    <p>CSS: </p>
+                    <meter min="0" max="100" value="65">65%</meter>
+                    <p>JAVASCRIPT: </p>
+                    <meter min="0" max="100" value="50">50%</meter>
+                </div>
+            </div>
+            <div class="box-right">
+                <div class="sub-title">
+                    <h1>About me</h1><br>
+                    <p> I am a web developer with diverse skill set of programming languages such as C, C++, and Java.
+                        Skilled full-stack developer, specializing in JavaScript, React.js, and Node.js. Strong
+                        background in building scalable web applications and improving software performance. Passionate
+                        about coding and continuously learning new technologies to enhance application efficiency.</p>
+                    <br><br>
+                    <h3>Experience: </h3>
+                    <ul>
+                        <li>Web Developer Intern at TLK Industries Private Limited <span>(May 2023-June 2023)</span>
+                        </li>
+                        <li>Web Developer Intern at Anayasmi Infotech <span> (May 2024-June 2024) </span></li>
+                    </ul><br>
+                    <h3>Education: </h3>
+                    <ul>
+                        <li>B.Tech in Information Technology from CHARUSAT <span> (Current) </span><br></li>
+                        <li>HSC from Narayan Vidyavihar <span> (2021) </span><br></li>
+                        <li>SSC from Narayan Vidyavihar <span> (2019) </span><br></li>
+                    </ul><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project -->
+    <div id="Project" class="project-page">
+        <h1>My Projects</h1>
+        <div>
+            <div class="project-grid">
+                <div class="project">
+                    <h2>EliteEstate-Real Estate Application</h2>
+                    <img src="/images/P1.png">
+                    <p>Developed and build with React, utilizing Tailwind CSS for a responsive user interface and Express and Node.js, for creating robust APIs for property listings, and transactions and used MongoDB for efficient data management and storage.</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                <div class="project">
+                    <h2>JobZee-Job Seeking Website</h2>
+                    <img src="images/P2.png">
+                    <p>Developed an interactive user interface with React and Vite, Implemented server-side functionality using Express and Node.js, including RESTful APIs for job listings, user authentication, and profile management.</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                
+                <div class="project">
+                    <h2>Online School Documents Processing System</h2>
+                    <img src="images/P3.png">
+                    <p>The Online School Documents Processing System intends to automate the whole process of requesting and processing school documents. The students and the registrar’s office can transact electronically to complete the document processing.</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="Contact" class="contact-page">
+        <h1>Contact Me</h1>
+        <div class="contact-container">
+            <div class="left-box">
+                <p><i class="fa-solid fa-paper-plane"></i> <a href="mailto:ranapreksha8@gmail.com">ranapreksha8@gmail.com</a></p>
+                <p><i class="fa-solid fa-phone"></i><a href="tel:9909892386">+91 9909892386</a></p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/preksha1401/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/preksha1401/"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/preksha-rana-a617a4229/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/preksha__14/"><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+                <a href="images/Preksha Rana-Resume.pdf" class="btn" download>Download Resume</a>
+            </div>
+            <div class="right-box">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
